@@ -24,3 +24,6 @@ switch(day){
         break;
 
 }
+
+// output
+// Monday came early
