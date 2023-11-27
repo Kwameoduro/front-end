@@ -5,6 +5,11 @@ function example(){
 }
 example()
 
+// output: 
+// line one 
+// line two 
+// line three
+
 
 let counter = 3;
 function example1(){
@@ -14,3 +19,11 @@ function example1(){
     example1();
 }
 example1();
+
+
+// output: 
+/* 
+3
+2
+1
+*/
