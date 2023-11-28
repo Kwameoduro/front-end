@@ -19,3 +19,4 @@ else {
 }
 addTwoNums(getNumber(), getNumber()) // this calls two random numbers and add them.
 addTwoNums(getNumber(), specifcNum()) // this calls one random number and adds it to the specific number.
+addTwoNums(specifcNum(), specifcNum()) // this calls the two specific numbers and adds them.
