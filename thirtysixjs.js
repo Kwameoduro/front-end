@@ -10,6 +10,7 @@ const door = {
     }
 }
 
+
 response1 = bicycle.bell();
 console.log(response1);  
 
@@ -20,3 +21,12 @@ response2 = door.bell();
 console.log(response2);
 
 // output: Ring, ring! Come here, please!
+
+
+// making it true polymorphic: 
+function ringTheBell(thing) {
+    console.log(thing.bell())
+}
+
+ringTheBell(bicycle);  // it prints:  Ring ,ring! Watch out, please!
+ringTheBell(door);  // it priints:   Ring, ring! Come here, please!
