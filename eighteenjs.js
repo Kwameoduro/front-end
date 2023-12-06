@@ -30,6 +30,7 @@ console.log(car);
 car["2022"] = 1901;
 console.log(car); 
 
-// output
+/*output
 
-// {2022: 1901, color: 'green', speed: 100, number of doors: 4}
+{2022: 1901, color: 'green', speed: 100, number of doors: 4}
+ */ 
