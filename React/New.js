@@ -1,4 +1,4 @@
-// Handling events using separate function expressions
+// Handling events using separate function expressions (equal and arrow)
 
 
 function App() {
@@ -12,5 +12,5 @@ function App() {
             </div>
       );
     };
-    
+
     export default App;
