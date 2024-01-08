@@ -64,3 +64,5 @@ function App() {
   )
 }
 export default App;
+
+// a calculator app that does simple addition, subtraction, division and multiplication.
