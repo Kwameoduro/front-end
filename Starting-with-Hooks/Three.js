@@ -5,7 +5,9 @@ export default function App() {
   console.log(greeting, setGreeting); 
  
   function updateGreeting() { 
-    setGreeting({ greet: "Hello, World-Wide Web" }); 
+    const newGreeting = {...greeting}; 
+    newGreeting.greet = "Hello, World-Wide Web"; 
+    setGreeting(newGreeting); 
   } 
  
   return ( 
@@ -15,5 +17,3 @@ export default function App() {
     </div> 
   ); 
 } 
-
-// An example of holding state in an object and updating it based on user-generated events
