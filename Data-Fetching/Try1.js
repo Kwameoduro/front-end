@@ -6,8 +6,9 @@ function App(){
     const fetchData = () => {
         fetch("https://randomuser.me/api/?results=1")
         .then(response => response.json())
-        then(data => setUser(data));
+        .then(data => setUser(data));
     }
+    
 
     React.useEffect(() =>{
         fetchData();
